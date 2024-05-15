@@ -1,7 +1,7 @@
 # C QUICKHULL
 This is a fast, pure, header-only C Quickhull implementation. It is possible to modify this code easily to work with *P2* geometry space thanks to the nataure of the `halfplaneTest` function.
 
-The Quickhull algorithm has complexity of *O(log N)*.
+The Quickhull algorithm has an average complexity of *O(N log N)*.
 
 This implementation was created to cure the need for the as minimal as possible, low-level, simple, efficient and fast Quickhull algorithm, without any redundant structures. These features make it suitable for comparative benchmarking of other CH construction algorithms, and this was in fact primary reason of this implementation creation.
  
